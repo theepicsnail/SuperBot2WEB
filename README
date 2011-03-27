@@ -1,0 +1,14 @@
+This is the basic outline of how a provider is structured. This should 
+have all the information to pull, and immediately start development on
+a new plugin/service/connector/provider. 
+
+MyProvider/
+    Plugins/
+        MyPlugin.py
+        __init__.py
+    Services/
+        MyServices.py
+        __init__.py
+    Connector.py
+    Autorun.cfg
+    README
